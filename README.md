@@ -2,7 +2,7 @@
 
 ## Description 
 
-This project was created using HTML, CSS and Javascript to make a Tic Tac Toe Game. The project had the following requirements:
+This project was created using HTML, CSS, Javascript and JQuery to make a Tic Tac Toe Game. The project had the following requirements:
 
 * You choose a symbol. The empty symbol is AI vs AI
 * If it is the human players turn, the relevant empty boxes can be pressed only.
@@ -34,6 +34,8 @@ The changes were checked with [W3C Validator](https://validator.w3.org/).
 [Stack Overflow](https://stackoverflow.com/) always seems to have the answer to a problem that occurs.
 
 [MDN](https://developer.mozilla.org/en-US/) is a very comprehensive and useful resource.
+
+[JQuery API](https://api.jquery.com/) documentation was useful.
 
 ## License
 
