@@ -22,7 +22,6 @@ function player(board) {
                 };
             };
         };
-    console.log(moves)
     if ((moves % 2) === 0){
         return X;
     };
