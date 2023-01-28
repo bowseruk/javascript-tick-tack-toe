@@ -154,8 +154,9 @@ function minimax_score(board, maximising) {
     }
 }
 
-// Display
+// This changes when it is the AI turn to play
 var aiTurn = false;
+// This 
 var playerTurn = false;
 var user = null;
 var gameBoard = initial_state();
@@ -186,6 +187,10 @@ function renderBoard() {
                 $(`#${i}-${j}`).on("click", (event) => {
                     gameBoard = result(gameBoard, [$(event.target).data('i'), $(event.target).data('j')])
                     nextTurn();
+                })
+            } else if (terminal(gameBoard)) {
+                $(`#${i}-${j}`).on("click", (event) => {
+                    startGame();
                 })
             }
         }
@@ -257,5 +262,4 @@ function nextTurn() {
     }
 };
 
-prepareBoardView()
-selectSymbolView(false)
+startGame()
